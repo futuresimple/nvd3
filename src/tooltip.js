@@ -41,6 +41,7 @@
           if (left < scrollLeft) left = pos[0] + dist;
           if (top < scrollTop) top = scrollTop + 5;
           if (top + height > scrollTop + windowHeight) top = scrollTop - height - 5;
+        }
         break;
       case 'w':
         left = pos[0] + dist;
